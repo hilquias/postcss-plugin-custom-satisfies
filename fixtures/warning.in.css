@@ -1,0 +1,16 @@
+.Padded {
+    padding: 1em;
+    @constraint Padded;
+}
+
+.Bordered {
+    border-width: 0.25em;
+    @constraint Bordered;
+}
+
+.Boxy {
+    margin: 1em;
+    border-width: 0.25em;
+    @satisfies Padded;
+    @satisfies Bordered;
+}

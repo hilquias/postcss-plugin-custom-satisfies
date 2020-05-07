@@ -1,0 +1,12 @@
+.Padded {
+    padding: 1em;
+}
+
+.Bordered {
+    border-width: 0.25em;
+}
+
+.Boxy {
+    padding: 1em;
+    border-width: 0.25em;
+}
