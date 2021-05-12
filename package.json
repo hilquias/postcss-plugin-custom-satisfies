@@ -15,7 +15,7 @@
    "license": "MIT",
    "repository": "hilquias/postcss-plugin-custom-satisfies",
    "dependencies": {
-      "postcss": "^7.0.29",
+      "postcss": "^8.2.10",
       "postcss-selector-parser": "^6.0.2"
    },
    "devDependencies": {
